@@ -1,0 +1,27 @@
+{
+  "name": "vue-auth-kit",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/vue-auth-kit.umd.js",
+  "module": "./dist/vue-auth-kit.es.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.4",
+    "vite-plugin-dts": "^3.0.0"
+  }
+}
