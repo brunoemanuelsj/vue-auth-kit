@@ -1,0 +1,34 @@
+Folder PATH listing
+Volume serial number is 2CE9-37E4
+C:.
+¦   .gitignore
+¦   .prettierrc
+¦   estrutura.txt
+¦   package-lock.json
+¦   package.json
+¦   README.md
+¦   tsconfig.app.json
+¦   tsconfig.json
+¦   tsconfig.node.json
+¦   vite.config.ts
+¦   
++---.vscode
+¦       extensions.json
+¦       
++---public
++---src
+    ¦   index.ts
+    ¦   plugin.ts
+    ¦   vite-env.d.ts
+    ¦   
+    +---composables
+    ¦       useAuth.ts
+    ¦       
+    +---core
+    ¦       auth-state.ts
+    ¦       token-storage.ts
+    ¦       types.ts
+    ¦       
+    +---tests
+            auth.test.ts
+            
